@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Artur Kotoyants</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Artur Kotoyants</h1>
+</header>
+
+<main class="container">
+
+    <!-- LEWA STRONA -->
+    <div class="left">
+
+        <img src="photo.jpg" alt="Zdjęcie profilowe">
+
+        <h2>Student IT</h2>
+
+        <section>
+            <h2>Kontakt</h2>
+
+            <p>Email: <span id="email"></span></p>
+            <p>Telefon: <span id="phone"></span></p>
+            <p>Miasto: <span id="city"></span></p>
+
+            <p>
+                <a href="https://github.com/pl72109?tab=repositories" target="_blank">
+                    GitHub
+                </a>
+            </p>
+
+            <p>
+                <a href="https://linkedin.com/" target="_blank">
+                    LinkedIn
+                </a>
+            </p>
+        </section>
+
+        <section>
+            <h2>Umiejętności</h2>
+            <ul id="skills"></ul>
+        </section>
+
+        <section>
+            <h2>Języki</h2>
+            <ul id="languages"></ul>
+        </section>
+
+        <section>
+            <h2>Hobby</h2>
+            <ul id="hobby"></ul>
+        </section>
+
+    </div>
+
+    <!-- PRAWA STRONA -->
+    <div class="right">
+
+        <section>
+            <h2>O mnie</h2>
+            <p id="about"></p>
+        </section>
+
+        <section>
+            <h2>Doświadczenie</h2>
+
+            <article>
+                <h3>Freelance</h3>
+                <p>2024</p>
+                <p>
+                    Proste projekty programistyczne i rozwój umiejętności.
+                </p>
+            </article>
+
+        </section>
+
+        <section>
+            <h2>Edukacja</h2>
+            <p>Uniwersytet Vistula – Informatyka</p>
+        </section>
+
+        <section>
+            <h2>Projekty</h2>
+            <ul id="projects"></ul>
+        </section>
+
+        <!-- FORMULARZ -->
+        <section class="contact-form">
+
+            <h2>Kontakt ze mną</h2>
+
+            <form id="contactForm">
+
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Imię"
+                    required
+                >
+
+                <input
+                    type="email"
+                    id="userEmail"
+                    placeholder="Email"
+                    required
+                >
+
+                <textarea
+                    id="message"
+                    placeholder="Wiadomość"
+                    required
+                ></textarea>
+
+                <button type="submit">
+                    Wyślij
+                </button>
+
+            </form>
+
+            <p id="status"></p>
+
+        </section>
+
+    </div>
+
+</main>
+
+<footer>
+    <p class="footer-text">
+        © 2026 Artur Kotoyants
+    </p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
